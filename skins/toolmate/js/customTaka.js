@@ -77,9 +77,33 @@
     
     $('#arrowL_featured').click(function(){
       if(index_featured > 0){
-         index_featured--;            
+         index_featured--;
          $item_featured.animate({'left':'+=1182px'});
       }
     });
     
+    
+//***********************************//
+//* For Featured and latest section *//
+//***********************************//
+   
+    $('.scrollDown > a ').click(function(){
+         event.preventDefault();
+         $('.products-image').animate({
+            scrollTop: '+=400'
+       });
+    });
+    
+    $('.scrollUp > a ').click(function(){
+       event.preventDefault();
+         $('.products-image').animate({
+            scrollTop: '-=400'
+       });
+    });
+    
+    
+    
+    
 });
+   
+

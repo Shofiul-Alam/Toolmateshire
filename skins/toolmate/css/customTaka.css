@@ -102,6 +102,11 @@ div.bhoechie-tab {
 select {
 	background-image: url('../images/iphone6.png') !important;
 }
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*             index.html                */
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
 /************ FEATURED TOOLS ************/
 /****************************************/
 
@@ -134,11 +139,11 @@ select {
     font-weight: 300;
 }
 
-.day { 
+.tmh-price .day { 
 	background-image: url('../images/icons/day_icon.svg') !important;
 	position: relative;
 }
-.week { 
+.tmh-price .week { 
 	background-image: url('../images/icons/week_icon.svg') !important;
 	position: relative;
 }
@@ -229,20 +234,18 @@ select {
 	height: auto !important;
 	width: 160px;
 }
+.products.featured .product-cell:hover { height: 400px;}
 .products.featured .product-cell:hover > .tmh-product > .product-photo a img {
 	height: 215px !important;
 	width: 100% !important;
 	object-fit: initial;
 }
-.products.featured .product-cell:hover > .tmh-product > .tmh-location {
-		display: block !important;
-}
-.products.featured .products-grid.featured * { 
-		vertical-align: top;
-}
+.products.featured .product-cell:hover > .tmh-product > .tmh-location { display: block !important;}
+.products.featured .products-grid.featured * { vertical-align: top;}
 
 .products.featured .tmh-product-description { padding-bottom: 10px;}
 .products.featured .product-name { margin-bottom: 5px !important; }
+
 /************* How it works *************/
 /****************************************/
 
@@ -392,4 +395,260 @@ select {
 	#latest ul.products-grid {
 		margin-left: 0;
 	}
+}
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*             product.html              */
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+.flex-display { 
+	display: flex;
+	display: -webkit-flex;
+}
+.divider {
+	border: 0.1px solid #ebebeb;
+	margin: 25px 0 25px 0;
+}
+.pt10 { padding-top: 10px;}
+.uppercase { text-transform: uppercase;}
+
+
+.product-details-info {
+	padding: 0 30px 0 30px !important;
+	background-color: #fff;
+}
+.productPage .product-details-info .firstname { font-weight: 200;}
+.productPage .product-details-info .lastname { font-weight: 700;}
+.productPage .productTitle {
+	margin-bottom: 20px;	
+}
+.productPage .productTitle .productName {
+	margin-bottom: 5px !important;
+	font-size: 30px;
+}
+.productPage .productTitle .productLocation {
+		align-items: flex-end;
+}
+.productPage .productTitle .productLocation p {
+	color: #cf4428;
+	padding-left: 10px;
+}
+.productPage .productTitle .productLocation img {
+	width: 25px;
+	height: 25px;
+}
+.productPage .product-details-info .profilePhotoWrapper {
+	margin-top: 20px;
+	position: relative
+}
+.productPage .product-details-info .profilePhotoWrapper > img {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 6px;
+  left: 204px;
+}
+.productPage .product-details-info .profilePhoto {
+	  width: 120px;
+    height: 120px;
+    text-align: center !important;
+    border-radius: 50% 8px 50% 50%;
+    background-color: #cf4428;
+    margin: 0 auto;
+}
+.productPage .product-details-info .profilePhoto img {
+	width: 120px !important;
+	height: 120px !important;
+	text-align: center;
+	border-radius: 50%;
+	border: 5px solid #cf4428;
+}
+.productPage .product-details-info > fn.title > .firstname { font-weight: 200;}
+.productPage .product-details-info > fn.title > .lastname { font-weight: bold;}
+.productPage .product-details-info > .myInfo > button { 
+	padding: 10px 15px;
+  background-color: #fff;
+  color: #cf4428;
+  border-radius: 9px;
+  border-color: #cf4428;
+}
+.productPage .product-details-info > .myInfo > button:hover { 
+	background-color: #cf4428;
+	color: #fff;
+}
+.productPage .product-details-info > .myInfo > button.myProfile { margin-right: 40px;}
+.productPage .product-details-info > .myInfo > button.myItems { padding: 10px 23px;}
+.productPage .product-details-info > .productPrice { justify-content: center;}
+.productPage .product-details-info > .productPrice > li.day { margin-right: 40px;}
+.productPage .product-details-info > .productPrice > li.week { margin-left: 20px;}
+.productPage .product-details-info > .productPrice > li span { 
+	padding-left: 60px;
+	font-size: 23px;
+	font-weight: bold;
+}
+.productPage .product-details-info > .productPrice > li span.weekPrice,
+.productPage .product-details-info > .productPrice > li span.weekPrice:after
+{ padding-left: 70px;}
+
+.productPage .product-details-info > .productPrice > li span:after {
+	content: "AUD";
+	display: list-item;
+	margin-top: -4px;
+  font-weight: 300;
+  padding-left: 60px;
+  font-size: 10px;
+  text-align: left;
+}
+.productPage .product-details-info > .productPrice > .day { 
+	background-image: url('../images/icons/Warstwa 1.svg') !important;
+	background-size: 50px 50px;
+}
+.productPage .product-details-info > .productPrice > .week { 
+	background-image: url('../images/icons/Warstwa 5.svg') !important;
+	background-size: 65px 55px;
+}
+.productPage .product-details-info > .booking .control-label.title { 
+	font-weight: normal;
+	padding-bottom: 10px;
+}
+.productPage .product-details-info > .hireTime,
+.productPage .product-details-info > .hirePrice { 
+	align-items: center;
+	margin-top:  20px;
+}
+.productPage .product-details-info > .hireTime > ul > li, 
+.productPage .product-details-info > .hirePrice > ul > li { 
+	margin-left: 25px;
+}
+.productPage .product-details-info > .hireTime > ul > .time,
+.productPage .product-details-info > .hirePrice > ul > .price { 
+	color: #cf4428;
+}
+.productPage .product-details-info > .hireTime > li > img,
+.productPage .product-details-info > .hirePrice > li > img {
+	width: 40px;
+	height: 40px;
+}
+.productPage .product-details-info > .addToCart > button {
+	background-color: #cf4428;
+	color: #fff;
+	padding: 15px 10px;
+}
+.productPage .product-details-info > .addToCart > button > img {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+}
+.productPage .product-details-info > .question p { 
+	text-transform: uppercase;
+	margin: 15px 0 50px 0;
+	color: #cf4428;
+	text-decoration: none;
+}
+.productPage .product-details-info > .question a { color: #cf4428;}
+@media(min-width: 768px){
+	div.product-details .product-details-info {
+		width: 33%;
+		margin-left: 5%;
+	}
+}
+.productPage .product-details-info > .booking {
+	margin-top: 20px;
+}
+.productPage .product-details-info > .booking > .container-fluid {
+	padding-left: 0;
+}
+.productPage .product-details-info > .booking .calendar .input-group.from {
+	width: 120px;
+	margin-right: 10px;
+}
+.productPage .product-details-info > .booking .calendar .input-group.to {
+	width: 120px;
+	margin-left: 10px;
+}
+.productPage .product-details-info > .booking .calendar .icon {
+	width: 30px;
+	height: 30px;
+	margin-left: 5px;
+}
+.productPage .product-details-info > .booking .calendar .icon {
+	width: 32px;
+	height: 32px;	
+}
+.product-details .product-photo-box { margin-top: 0;}
+.product-details .product-photo-box .loupe:before {
+	border-color: #cf4428;
+	border-radius: 100px 0 0 0;
+	border-width: 0 0 75px 75px;
+}
+.product-details .product-photo-box .loupe img { 
+	position: relative;
+	top: -7px;
+  left: -7px;
+}
+.product-details .product-photo-box > .product-photo { 
+	background-color: #fff;
+	width: 100%;
+}
+.productPage .product-details .product-image-gallery { 
+	padding-left: 10px;
+	margin-top: 0;
+}
+.productPage .product-details .product-image-gallery li {
+	width: 200px;
+	height: 115px;
+}
+.productPage .product-details .product-image-gallery li img {
+	width: 200px;
+	height: 115px;
+}
+.productPage .product-details .product-image-gallery {
+	width: initial !important;
+}
+.productPage .product-details .product-image-gallery > .products-image {
+	height: 380px !important;
+	overflow-y: scroll;
+}
+.productPage .product-details .product-image-gallery .scrollDown { margin-top: 10px;}
+.productPage .product-details .product-image-gallery .scrollUp { margin-bottom: 10px;}
+.productPage .product-details .product-image-gallery .scrollDown img,
+.productPage .product-details .product-image-gallery .scrollUp img {
+	width: 50px;
+	height: 20px;
+}
+.productPage .product-details .product-image-gallery .scrollUp img {
+	-ms-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+.productPage .share > div { margin-right: 20px;}
+.productPage .product-details-tabs {
+	padding-top: 0;
+	margin-top: -350px;
+}
+.productPage .product-details-tabs div.tabs-container { padding-top: 50px !important;}
+.productPage .product-details-tabs div.tabs ul.tabs > li > a {
+	text-decoration: none;
+	padding-bottom: 10px;
+}
+.productPage .product-details-tabs div.tabs ul.tabs > li.active > a, 
+.productPage .product-details-tabs div.tabs ul.tabs > li.active > span {
+	border-color: #cf4428;
+  color: #cf4428;	
+}
+.productPage .product-details .extra-fields li strong {
+	font-weight: bold !important;
+	color: #000;
+}
+.productPage .block-block .title { padding-bottom: 20px;}
+.productPage .product-details .image {
+	width: 37% !important;
+}
+.productPage .vote-bar .stars-row.full .star-single span.fa-star-o {
+	color: #e2e2e2;
+}
+
+.productPage .vote-bar .stars-row.full .star-single span.fa-star {
+	-webkit-text-stroke-color: #cf4428;
+  -webkit-text-stroke-width: 1px;	
+	color: #000;
 }
