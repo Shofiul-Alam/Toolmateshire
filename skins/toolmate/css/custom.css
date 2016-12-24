@@ -1,0 +1,328 @@
+/*
+Header Css
+*/
+
+/* Catagory dropdown menu Css */
+
+ul.cat li {
+   clear:both!important;
+}
+ul.cat ul.sub-menu li a{
+   line-height: 4em;
+}
+ul.cat ul.sub-menu {
+    width:400px;
+}
+.sub-menu .sh-cat-icon {
+    display:inline-block!important;
+    width:70px!important;
+    height:70px!important;
+    background:#fff;
+    text-align:center;
+    border-radius: 50%;
+    float:left;
+    margin-right:15px;
+    padding-top:9px!important;
+    position:relative;
+    top:-8px;
+}
+.sub-menu .sh-cat-icon:hover {
+    background:#f5f5f5;
+    border:1px solid #f3f3f3;
+}
+
+ul.sub-menu {
+    background-color:#fff!important;
+    border-radius:15px;
+    width:350px;
+    padding-left:20px;
+    padding-bottom:15px;
+}
+
+ul.sub-menu li {
+   margin-top:10px;
+}
+ul.sub-menu a {
+    color:#000!important;
+    text-decoration: none!important;
+
+}
+.mainmenu span {
+    color: #cf4428;
+    font-weight:300;
+    display:block;
+    font-size:11px;
+    line-height:2pt;
+}
+.cart_icon {
+    display:inline-block!important;
+    width:45px!important;
+    height:45px!important;
+    background:#fff;
+    text-align:center;
+    border-radius: 50%;
+    border:3px solid #cf4428!important;
+    float:left;
+    margin-right:15px;
+    padding:0px!important;
+}
+.cart_icon img {
+    margin-top:6px;
+    width:30px;
+    height:auto;
+
+}
+.sh-account-menu {
+    float:left;
+}
+.sh-account-dropdown{
+    padding-left:15px;
+}
+.sh-account-menu span {
+    margin-top:7px;
+}
+#or{
+    display:inline-block;
+}
+ a.sh-button {
+    display:inline-block;
+    padding:15px;
+    margin:30px 15px 15px 15px;
+    background-color: #cf4428;
+}
+a.sh-button:hover {
+    background-color:#000 !important;
+    padding:17px;
+    color:#fff!important;
+
+}
+.mainmenu ul li {
+    padding:20px;
+    border-radius:5px;
+}
+.mainmenu ul li a{
+    text-decoration: none;
+}
+.mainmenu ul li:hover {
+    background-color:#fff;
+    color:#cf4428 !important;
+}
+ul.sub-menu li a:hover {
+    padding:15px;
+    background-color:#000!important;
+    color:#fff!important;
+}
+#sh-banner{
+    height:445px;
+    background-image:url("../images/TMH_main_page.gif");
+}
+#sh-search .balcked {
+    top: 115px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+    position: relative;
+}
+
+.HomepageSearchMobile-form-container {
+    margin-left: 120px;
+}
+#header-bar .btn span {
+    color:#fff;
+}
+#header-bar {
+    text-align:left!important;
+}
+.header_bar-sign_in span {
+    color:#fff!important;
+}
+#header-area:after {
+    margin-top: 100px!important;
+}
+#header-area .desktop-header.affix #logo img, #header-area .desktop-header.affix .company-logo img {
+    margin-top: 40px!important;
+}
+.mainmenu ul li a {
+    font-size:14px!important;
+}
+#header-area .desktop-header.affix {
+    top: 0!important;
+}   
+
+.sh-topbar {
+    height:30px;
+}
+
+#sh-search .input-search.input-postcode {
+    margin: 0;
+    float: left;
+}
+#sh-search input:not(:last-of-type) {
+    background-image: url(https://toolmateshire.com.au/img/border-divider.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#sh-search .input-search {
+    border-radius: 0;
+    border: 1px solid rgba(182, 182, 182, 0.31);
+    margin: 0 -1px 0;
+    color: #ce4428;
+    border: none;
+}
+
+.balcked :placeholder-shown {
+    color: rgba(155, 66, 40, 0.85);
+    color: #656565;
+}
+.balcked input {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+#sh-search .input-lg {
+    height: 46px;
+    padding: 10px 16px;
+    font-size: 18px;
+    line-height: 1.3333333;
+
+}
+#sh-search .btn {
+    border-radius: 0 !important;
+}
+#sh-search .btn-home-search {
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    width: 150px;
+    line-height: 37px;
+    background: url(https://toolmateshire.com.au/img/linkbg.png) no-repeat 0 0;
+    margin-top: 5px;
+}
+#sh-search .btn-block {
+    display: block;
+    width: 100%;
+}
+
+#sh-search .glyphicon-search {
+    position: relative;
+    width: 17px;
+    height: 22px;
+    padding-left: 3px;
+    display: inline-block;
+    margin-right: -2px;
+}
+#sh-search .glyphicon {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+
+#sh-search .btn-home-search span {
+    background: url(https://toolmateshire.com.au/img/linkbg.png) no-repeat right top;
+    height: 37px;
+    text-align: center;
+    display: inline-block;
+    padding-right: 30px;
+    font-size: 15px;
+    line-height: 39px;
+}
+
+#sh-search .btn-home-search {
+    background-color: transparent;
+    color: #FFF;
+    border-radius: 0;
+    padding: 0;
+    border: none;
+    width: 150px;
+    line-height: 37px;
+    background: url(https://toolmateshire.com.au/img/linkbg.png) no-repeat 0 0;
+    margin-top: 5px;
+}
+/*
+Vertical Tabbed Feature
+*/
+
+/*  bhoechie tab */
+div.bhoechie-tab{
+    height:560px;
+    background: #F8F8F8;
+}
+div.bhoechie-tab-container{
+  z-index: 10;
+  background-color: #ffffff;
+  padding: 0 !important;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+  margin-top: 20px;
+  -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  -moz-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+  background-clip: padding-box;
+  opacity: 0.97;
+  filter: alpha(opacity=97);
+}
+
+div.bhoechie-tab-menu{
+  padding-right: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+}
+div.bhoechie-tab-menu .glyphicon {
+    font-size:50px!important;
+}   
+div.bhoechie-tab-menu div.list-group{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a{
+  margin-bottom: 0;
+}
+div.bhoechie-tab-menu div.list-group>a .glyphicon,
+div.bhoechie-tab-menu div.list-group>a .fa {
+  color: #5A55A3;
+}
+div.bhoechie-tab-menu div.list-group>a:first-child{
+  border-top-right-radius: 0;
+  -moz-border-top-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a:last-child{
+  border-bottom-right-radius: 0;
+  -moz-border-bottom-right-radius: 0;
+}
+div.bhoechie-tab-menu div.list-group>a.active,
+div.bhoechie-tab-menu div.list-group>a.active .glyphicon,
+div.bhoechie-tab-menu div.list-group>a.active .fa{
+  background-color: #f8f8f8;
+  background-image: #5A55A3;
+  color: #000;
+}
+div.bhoechie-tab-menu div.list-group>a.active:after{
+  content: '';
+  position: absolute;
+  left: 100%;
+  top: 50%;
+  margin-top: -13px;
+  border-left: 0;
+  border-bottom: 13px solid transparent;
+  border-top: 13px solid transparent;
+  border-left: 10px solid #5A55A3;
+}
+
+div.bhoechie-tab-content{
+  /* border: 1px solid #eeeeee; */
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+div.bhoechie-tab div.bhoechie-tab-content:not(.active){
+  display: none;
+}
+
+
