@@ -1,0 +1,111 @@
+#main-wrapper {
+    background: #fafafa;
+}
+
+
+/* FEATURED TOOLS */
+
+#tmh_tools h3 {
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.tmh-section-description {
+    font-size: 14px;
+    font-weight: 300;
+    margin: 0 0 30px 2px;
+}
+
+
+/* tmh product */
+
+.products-grid .product-cell {
+    margin-bottom: 30px!important;
+}
+
+.products-grid .product {
+    border: 1px solid #f1f1f1!important;
+    transition: .1s ease-in!important;
+    padding: 0;
+}
+
+.tmh-product:hover {
+    -webkit-box-shadow: none!important; 
+    -moz-box-shadow: none!important;
+    box-shadow: none!important;
+    border: 1px solid #f1f1f1!important;
+}
+
+.products-grid .product-photo, .products-list .product-photo {
+    padding: 1px;
+}
+
+.products-grid .product-photo a, .products-list .product-photo a {
+    height: auto!important;
+}
+
+.btn-hire-tool {
+    background: #cc4118!important;
+    border-color: #cc4118!important;
+    text-transform: uppercase;
+}
+
+.tmh-product-name {
+    text-align: left!important;
+    padding-left: 15px!important;
+}
+
+.tmh-product-name a {
+    color: #cc4118;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.tmh-product-description {
+    font-size: 13px;
+    font-weight: 300;
+    color: #101010;
+    padding: 5px 15px 15px 15px;
+} 
+
+.tmh-price {
+    padding: 0 15px;
+    background: #fff;
+    opacity: 1.0;
+}
+
+.tmh-price ul li {
+    display: table-cell;
+    width: 1%;
+}
+
+.tmh-price ul li a {
+    color: #cc4118;
+    font-size: 16px;
+    padding-left: 40px;
+    padding-right: 0;
+    font-weight: 700;
+}
+
+.tmh-price ul li a:after {
+    content: "AUD";
+    display: list-item;
+    padding: 0 0 0 40px;
+    margin-top: -4px;
+    font-weight: 300;
+}
+
+.day {
+    background: url(.././icons/day_icon.svg) no-repeat 0% 16%;
+    background-size: 30px 30px;
+}
+
+.week {
+    background: url(.././icons/week_icon.svg) no-repeat 0% 16%;
+    background-size: 30px 30px;
+}
+
+/* /tmh product */

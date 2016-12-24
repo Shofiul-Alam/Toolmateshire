@@ -1,0 +1,150 @@
+.instant-search-menu {
+  text-shadow: none;
+  box-sizing: content-box;
+}
+
+.instant-search-menu * {
+  box-sizing: content-box;
+}
+
+.instant-search-menu .suggestion,
+.instant-search-menu .powered-by {
+  color: #444;
+}
+
+.instant-search-menu dt a { 
+  color: #2c5fa6;
+  -o-transition:color .4s;
+  -ms-transition:color .4s;
+  -moz-transition:color .4s;
+  -webkit-transition:color .4s;
+  transition:color .4s;
+  font-weight: normal;
+}
+
+.instant-search-menu dt a:hover,
+.instant-search-menu dt a.hover,
+.instant-search-menu .name a { 
+  color: #0f9dcc;
+}
+
+.instant-search-menu.narrow dd .arrow {
+  display: none;
+}
+
+.instant-search-menu dt .expand {
+  display: none;
+}
+
+.instant-search-menu.narrow dt .expand {
+  display: inline-block;
+  margin-right: 5px;
+}
+
+.instant-search-menu.narrow dt.active {
+  display: none;
+}
+
+.instant-search-menu.narrow dd {
+  position: static;
+  margin-left: -23px;
+}
+
+.instant-search-menu.narrow dt .expand {
+  float: right;  background-image:url('data:image/svg+xml;charset=US-ASCII,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22iso-8859-1%22%3F%3E%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%20%20width%3D%2212px%22%20height%3D%228px%22%20viewBox%3D%220%200%2012%208%22%20style%3D%22enable-background%3Anew%200%200%2012%208%3B%22%20xml%3Aspace%3D%22preserve%22%3E%3Cpolygon%20fill%3D%22%23FFF%22%20points%3D%2210%2C0%206%2C4%202%2C0%200%2C2%206%2C8%2012%2C2%20%22%2F%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3Cg%3E%3C%2Fg%3E%3C%2Fsvg%3E');
+  opacity: 0.5;
+  -webkit-filter: invert(100%);
+  background-repeat: no-repeat;
+  background-position: 4px 7px;
+  color: #333;  width: 20px;
+  height: 20px;
+}
+
+.instant-search-menu.narrow dl {
+  padding: 0; 
+  margin: 12px 5px 20px 5px;
+  box-shadow: 0 0 6px #ddd;
+  border-radius: 7px;
+}  
+
+.instant-search-menu.left.narrow dl {
+  padding: 0;
+}
+
+.instant-search-menu.narrow dt {
+  border: 1px solid #d0d0d0;
+  padding: 6px 3px 6px 10px;
+  border-bottom: none;
+  background-image: linear-gradient(rgba(255,255,255,0.5), rgba(230,230,230,0.5));
+  cursor: pointer;
+}
+  
+.instant-search-menu.narrow dt:active {
+  background-image: linear-gradient(rgba(230,230,230,0.5), rgba(255,255,255,0.5));
+}
+
+.instant-search-menu.narrow dt:first-child {
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+}
+  
+.instant-search-menu.narrow dt:last-of-type {
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  border-bottom: 1px solid #d0d0d0;
+}
+
+.instant-search-menu.narrow dd {
+  margin: 0;
+  width: auto;
+  border-radius: 0;
+}
+
+.instant-search-menu.narrow dd:first-of-type {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.instant-search-menu.narrow dd:last-of-type {
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.instant-search-menu.narrow dd .details {
+  padding: 16px 20px 20px;
+}
+
+.instant-search-menu.narrow .header-right {
+  margin: 15px 17px 0;
+}
+
+.instant-search-menu.narrow dt a:hover {
+  color: #2c5fa6;
+}
+
+.instant-search-menu.narrow dd {
+  padding: 0;
+}
+
+.instant-search-menu .cs-product-link {
+  word-wrap: break-word;
+}
+
+.instant-search-menu .block-products {
+  border: none;
+  box-shadow: none;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+}
+
+.instant-search-menu .image {
+  max-width: 150px;
+}
+
+.instant-search-menu .image > a {
+  max-width: 100%;
+}
+
+.instant-search-menu .image > a > img {
+  max-width: 100%;
+}
