@@ -404,6 +404,7 @@ select {
 	display: flex;
 	display: -webkit-flex;
 }
+.flex-ver-center { align-items: center;}
 .divider {
 	border: 0.1px solid #ebebeb;
 	margin: 25px 0 25px 0;
@@ -652,3 +653,87 @@ select {
   -webkit-text-stroke-width: 1px;	
 	color: #000;
 }
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*            userProfile.html           */
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.userProfile .userInfo {
+	margin-top: 70px;
+}
+
+.userProfile .userInfo .profile_img .profilePhoto img {
+	width: 120px !important;
+  height: 120px !important;
+  text-align: center;
+  border-radius: 50%;
+  border: 5px solid #cf4428;
+}
+.userProfile .userInfo .profile_img .ratingNum span {
+	font-size: 30px;
+}
+.userProfile .userInfo .profile_img .vote-bar .stars-row.full .star-single span.fa-star {
+  -webkit-text-stroke-color: #cf4428;
+  -webkit-text-stroke-width: 1px;
+  color: #000;
+}
+.userProfile .userInfo .profile_img .vote-bar .stars-row.full .star-single span.fa-star-o {
+	color: #e2e2e2;
+}
+.userProfile .userInfo .profile_description .firstname { font-size: 22px; font-weight: 200;}
+.userProfile .userInfo .profile_description .lastname { font-size: 22px; font-weight: 700;}
+.userProfile .userInfo .profile_description .userVerify { margin-left: auto;}
+.userProfile .userInfo .profile_description .userVerify > div { 
+	background-color: #cf4428;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	position: relative;
+	margin-right: 10px;
+}
+.userProfile .userInfo .profile_description .userVerify > div img {
+	width: 15px;
+	height: 15px;
+	position: absolute;
+	top: 2px;
+	left: 2px;
+}
+
+.userProfile .userInfo .profile_description .numbers {
+	font-size: 30px;
+	justify-content: center;
+	margin-top: 60px;
+}
+.userProfile .userInfo .profile_description .numbers .actualNumber {
+	color: #cf4428;
+	font-weight: bold;
+}
+.userProfile .userProfileContents { margin-top: 45px;}
+.userProfile .userProfileContents ul { margin-bottom: 20px;}
+.userProfile .userProfileContents .nav-tabs>li.active>a,
+.userProfile .userProfileContents .nav-tabs>li.active>a:hover, 
+.userProfile .userProfileContents .nav-tabs>li.active>a:focus {
+	border: 1px solid transparent;
+	border-bottom: 2px #cf4428 solid;
+}
+.userProfile .userProfileContents .nav-tabs > li > span,
+.userProfile .userProfileContents .nav-tabs > li > a {
+	background-image: none !important;
+}
+
+.userProfile .userProfileContent .sort_icon,
+.userProfile .userProfileContent .icon_show {
+	display: block;
+	width: 35px;
+	height: 35px;
+	background-color: #cf4428;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 10px;
+}
+.userProfile .userProfileContent .sort_icon img {
+	position: absolute;
+	top: 2px;
+	left: 7px;
+}
+
