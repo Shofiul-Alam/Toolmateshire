@@ -109,7 +109,7 @@
         container: $('#example-progress-bar-container')
     });
     $('#registerTrigger').click(function() {
-        $('.affix').css('position','initial');
+       $('.affix').css('position','initial');
     });
     $('.close').click(function() {
        $('.affix').css('position','fixed');
