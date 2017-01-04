@@ -96,17 +96,24 @@
     
     $('.scrollUp > a ').click(function(){
        event.preventDefault();
-         $('.products-image').animate({
+        $('.products-image').animate({
             scrollTop: '-=400'
        });
     });
 
 //***********************************//
-//* User Profile page               *//
+//*           Registration          *//
 //***********************************//
 
-
-    
+    $('#example-progress-bar').strengthMeter('progressBar', {
+        container: $('#example-progress-bar-container')
+    });
+    $('#registerTrigger').click(function() {
+        $('.affix').css('position','initial');
+    });
+    $('.close').click(function() {
+       $('.affix').css('position','fixed');
+    });
     
 });
    

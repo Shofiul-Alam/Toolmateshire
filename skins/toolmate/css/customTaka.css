@@ -107,6 +107,10 @@ select {
 /*             index.html                */
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
+#page-wrapper {
+	background-color: #fafafa;
+}
+
 /************ FEATURED TOOLS ************/
 /****************************************/
 
@@ -281,7 +285,7 @@ select {
 /************* Latest Tools *************/
 /****************************************/
 #latest {
-	background-color: #fafafa;
+	background-color: #f8f8f8;
 }
 #latest .products-grid {
 	margin-bottom: 30px;
@@ -319,6 +323,15 @@ select {
 ::-webkit-scrollbar {
 	display: none;
 }
+
+/************* Advertisement *************/
+/****************************************/
+#advertisement {
+	width: 100%;
+	height: 200px;
+	background-color: #f8f8f8;
+}
+
 
 /*************** Footer *****************/
 /****************************************/
@@ -411,7 +424,6 @@ select {
 }
 .pt10 { padding-top: 10px;}
 .uppercase { text-transform: uppercase;}
-
 
 .product-details-info {
 	padding: 0 30px 0 30px !important;
@@ -736,4 +748,41 @@ select {
 	top: 2px;
 	left: 7px;
 }
+
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*            register.html              */
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+
+.register .close {padding: 0 5px 0 0;}
+.register .modal-content { width: 480px; background-color: #fafafa;}
+.register .modal-container { padding: 0 70px;}
+.register .modal-header { border-bottom: none;}
+.register .modal-header h4 { font-size: 14px; margin-top:15px;}
+.register .modal-header .facebookBtn { margin: 15px 0;}
+.register .modal-header .facebookBtn > button {
+	color: #fff;
+	background-color: #cc3b1b;
+	border: none;
+  padding: 7px 13px;
+  border-radius: 5px;
+}
+.register .modal-header .facebookBtn > button > i { font-size: 17px; padding: 0 7px 0 2px;}
+.register .modal-body select { background-image: none !important;}
+.register .modal-body .form-check { font-size: 12px;}
+.register .modal-body .form-check + img { width: 100%;}
+.register .modal-body .form-group {	margin-bottom: 20px !important;}
+.register .modal-body .form-group.password { margin-bottom: 7px !important;}
+.register .modal-body .form-group input:focus { 
+	border-color: #ccc;
+	border-left: #cf4428 6px solid;
+	box-shadow: none;
+}
+.register .modal-body .progress { height: 6px !important;}
+.register .modal-body .registerBtn > button {
+	background-color: #cc3b1b;
+	padding: 10px 40px;
+}
+.register .modal-dialog { left: 0 !important;}
+
+
 
