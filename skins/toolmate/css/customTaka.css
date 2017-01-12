@@ -99,9 +99,9 @@ div.bhoechie-tab {
 
 /*#sh-search input:not(:last-of-type) { background-image: none !important;}*/
 #sh-search .input-search { color: black;}
-select {
-	background-image: url('../images/iphone6.png') !important;
-}
+/*select {*/
+/*	background-image: url('../images/iphone6.png') !important;*/
+/*}*/
 
 /*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 /*             index.html                */
@@ -477,6 +477,8 @@ select {
 }
 .productPage .product-details-info > fn.title > .firstname { font-weight: 200;}
 .productPage .product-details-info > fn.title > .lastname { font-weight: bold;}
+.productPage .product-details-info .product-average-rating { margin-bottom: 0;}
+.productPage .product-details-info .product-average-rating .vote-bar .star-single img { vertical-align: top;}
 .productPage .product-details-info > .myInfo > button { 
 	padding: 10px 15px;
   background-color: #fff;
@@ -784,5 +786,148 @@ select {
 }
 .register .modal-dialog { left: 0 !important;}
 
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
+/*            Toollist.html     */
+/*@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@*/
 
+.toolList .form-default-images-value .multiple-files { display: flex;}
+.toolList .form-default-images-value .multiple-files .uploadImg { 
+	width: 150px;
+	height: 170px;
+	background-color: #fff;
+	margin-right: 20px;
+}
+.toolList .form-default-images-value .multiple-files .uploadImg .iconMenu {
+	display: flex;
+	justify-content: space-around; 
+	padding-top: 10px;
+}
+.toolList .form-default-images-value .multiple-files .uploadImg .iconMenu img { width: 25px; height: 25px; }
+.toolList .form-default-images-value .multiple-files .uploadImg img { width: 150px; height: 130px;}
+.toolList .form-default-images-value .form-default-images .file-uploader {
+	width: 150px !important;
+	height: 130px !important;
+	background-color: #fff;
+}
 
+.toolList .form-default-images-value .file-uploader {
+	width: 150px !important;
+	height: 130px !important;
+	background-color: #fff;
+}
+.toolList .form-default-images-value .file-uploader img { 
+	width: 150px;
+	height: 130px;
+}
+.toolList .form-default-full-description .control-label > textarea { 
+	background: #fff !important;
+	display: block;
+  width: 100%;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.toolList .form-default-images-value .multiple-files > img { width: 150px; height: 130px;}
+
+.toolList .tabs-container .moreInfo h2 {
+	width: 230px;
+  font-size: 14px;
+  border: 1px #cf4428 solid;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  background-color: #fff;
+}
+.toolList .tabs-container .moreInfo legend {
+	border-bottom: none !important;
+}
+.toolList .form-prices-and-inventory-tool-value .input-group { width: 100%;}
+.toolList .calculator-data { width: 25% !important; padding: 10px !important;}
+.toolList .calculator-final > .calculator-data { margin-top: 20px;}
+.toolList .calculator-final > .calculator-data { 
+	width: 50% !important;
+	padding: 10px !important;
+}
+.toolList .calculator-final > .calculator-data:first-child {
+	background: url('../images/icons/Warstwa 1.svg');
+	background-repeat: no-repeat;
+	background-position: 13% 35%;
+	background-size: 80px;
+	border: none;
+	border-right: 1px solid #eae9e9;
+} 
+.toolList .calculator-final > .calculator-data:last-child {
+	background: url('../images/icons/Warstwa 5.svg');
+	background-repeat: no-repeat;
+	background-position: 13% 35%;
+	background-size: 100px;
+	border: none;
+} 
+
+.toolList .calculator-final > .calculator-data h3 { 
+	margin-top: 0 !important;
+	font-size: 32px;
+	margin-bottom: 0 !important;
+	padding-left: 30px;
+}
+
+.toolList #tool_calculator_list { margin-left: 0 !important;}
+.toolList #tool_calculator_list .calculator-sums .calculator-data {
+	border: none;
+	border-bottom: 1px solid #eae9e9;
+	border-right: 1px solid #eae9e9;
+}
+.toolList #tool_calculator_list .calculator-sums .calculator-data .price { color: #cc3b1b;}
+.toolList #tool_calculator_list .calculator-sums .calculator-data .price:after {
+	content: "AUD";
+  margin-top: -4px;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 5px;
+}
+.toolList #tool_calculator_list .calculator-sums .calculator-data:last-child {
+	border-right: none;
+}
+.toolList #tool_calculator_list .calculator-data { text-align: center;}
+.toolList #main {width: 600px;}
+
+.toolList .input-wrapper > img {
+	width: 30px;
+	height: 30px;
+}
+.toolList .input-wrapper > input {
+	appearance: normal !important;
+}
+.toolList .calculator-final > .calculator-data h3.price {
+	padding-left: 25px;
+}
+.toolList .calculator-final > .calculator-data h3.price:after {
+		content: "AUD";
+    margin-top: -4px;
+    font-weight: 300;
+    font-size: 18px;
+}
+.toolList .form-prices-and-inventory-bond #YouReceiveWeek .price:after {
+	content: "AUD";
+  margin-top: -4px;
+  font-weight: 300;
+  font-size: 16px;
+  padding-left: 5px;
+}
+
+.toolList .form-prices-and-inventory-daily-price-daily-price,
+.toolList .form-prices-and-inventory-daily-price-weekly-price {	
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+}
+.toolList .input-widget .input-wrapper > img { margin-right: 10px;}

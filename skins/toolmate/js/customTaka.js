@@ -1,3 +1,5 @@
+//@@@@@@@@@ index.html @@@@@@@@@//
+
 //*****************************//
 //*  For How it works section *//
 //*****************************//
@@ -82,11 +84,6 @@
       }
     });
     
-    
-//***********************************//
-//* For Featured and latest section *//
-//***********************************//
-   
     $('.scrollDown > a ').click(function(){
          event.preventDefault();
          $('.products-image').animate({
@@ -105,16 +102,41 @@
 //*           Registration          *//
 //***********************************//
 
-    $('#example-progress-bar').strengthMeter('progressBar', {
-        container: $('#example-progress-bar-container')
-    });
-    $('#registerTrigger').click(function() {
-       $('.affix').css('position','initial');
-    });
-    $('.close').click(function() {
-       $('.affix').css('position','fixed');
-    });
-    
-});
-   
+   $('#example-progress-bar').strengthMeter('progressBar', {
+       container: $('#example-progress-bar-container')
+   });
+   $('#registerTrigger').click(function() {
+      $('.affix').css('position','initial');
+   });
+   $('.close').click(function() {
+      $('.affix').css('position','fixed');
+   });
 
+//@@@@@@@@@ ProductPage.html @@@@@@@@@//
+
+//***********************************//
+//*              rating             *//
+//***********************************//
+   
+   // $('.star-single img').click(function(){
+   //    alert("it's clicked");
+   // });
+   
+//@@@@@@@@@ ToolList.html @@@@@@@@@//
+
+ $('.moreInfo').click(function() {
+   alert('hhhhh');
+});
+      // $('h3').toggle(
+      //  function() {
+      //     alert('hello');
+      //     $(this).children('.fa.fa-chevron-down').attr('src', '../skins/toolmate/images/icons/icon_day.svg');
+      //  },
+      //  function() {
+      //     $(this).children('.fa.fa-chevron-down').attr('src', '../skins/toolmate/images/icons/booking-cash.svg');
+      //  }
+      // );
+
+     
+
+  });
