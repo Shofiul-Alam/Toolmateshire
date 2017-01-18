@@ -5,7 +5,19 @@
 //*****************************//
   
   $(document).ready(function() {
-     
+    var item_featured = $('#featured_product > li'); //Cache your DOM selector
+   
+        var item_featured_length = item_featured.length;
+         var row2 = item_featured_length / 2;
+         var row1 = item_featured_length - row2;
+         console.log("row1 " + row1);
+         console.log("row2 " + row2);
+         console.log($("#featured_product > li:nth-child(6)").attr('class'));
+        //$("#featured_product > li:nth-child(1)").before("<ul class='products-grid grid-list featured'"+">");
+         
+         
+      
+
      $("div.bhoechie-tab-menu>div.list-group>a").click(function(e) {
         e.preventDefault();
         var sibling_src_off = $(this).siblings('a.active').children("h4").children('img').attr('src');
@@ -74,6 +86,11 @@
       if(index_featured < endIndexFeatured ){
          index_featured++;
          $item_featured.animate({'left':'-=1182px'});
+        // var item_featured = $('#featured_product li'); //Cache your DOM selector
+        // var item_featured_length = item_featured.length;
+        // alert(item_featured_length);
+        // $('#featured_product').css("column-count", 4);
+          
       }
     });
     
@@ -124,9 +141,6 @@
    
 //@@@@@@@@@ ToolList.html @@@@@@@@@//
 
- $('.moreInfo').click(function() {
-   alert('hhhhh');
-});
       // $('h3').toggle(
       //  function() {
       //     alert('hello');
@@ -137,6 +151,11 @@
       //  }
       // );
 
+    // $(document).ready(function() {
+    //     var item_featured = $('#featured_product li'); //Cache your DOM selector
+    //     var item_featured_length = item_featured.length;
+    //     alert(item_featured_length);
+    //     $('#featured_product').css("column-count", 4);
+    // });
      
-
   });
